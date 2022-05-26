@@ -1,0 +1,20 @@
+body{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.desktop{
+ 
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: rgb(0, 255, 115);
+    background-image: url(https://wida.wisc.edu/sites/default/files/resource/wallpaper/rainbows-wallpaper-desktop-wide.png);
+  
+  
+
+    background-size: cover;
+}

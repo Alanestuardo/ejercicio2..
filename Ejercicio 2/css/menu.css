@@ -1,0 +1,140 @@
+.menu1{
+
+    width: 16rem; 
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.522);
+
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3.6rem;
+}
+
+/* SE ACTIVA EL MENU  */
+
+.activar{
+    display: inline-block;
+    
+}
+/*********/
+
+.menu_icon2{
+    margin-top: 1.3rem;
+
+  
+
+    text-align: center;
+    justify-content: center;
+}
+
+.menu_titulo{
+    text-align: center;
+    color: rgba(240, 248, 255, 0.806);
+    font-weight: 100;
+    margin-top: 2rem;
+    text-shadow: 0 0 5px #ff10f3a0;
+}
+
+/*** BUSCADOR ****/
+.menu_bucador{
+        width: 13rem;
+        height: 2rem;
+        border: none;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        background-color: rgba(0, 0, 0, 0.731);
+        border-radius: 0.5rem;
+        outline: none;
+        color: rgb(240, 255, 242);
+}
+
+input{
+    padding: 1rem
+}
+
+/*** OPCIONES PARA BUSCAR ****/
+.menu_opciones{
+
+    width: 10rem;
+    height: 2rem;
+    background-color: rgba(76, 77, 76, 0.521);
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    align-items: center;
+    display: flex;
+}
+
+.menu_opciones:hover{
+    background-color: rgba(240, 255, 245, 0.393);
+    transition: 0.5s;
+    text-shadow: 0 0 5px #ff10ffb2;
+}
+
+.opciones_texto{
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    margin-left: 0.5rem;
+    color: rgba(255, 240, 255, 0.725);
+}
+
+.iconos{
+    margin-top: 2rem;
+}
+
+.iconos_menu{
+    width: 14rem;
+    height: 4rem;
+    margin-left: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+/****IMAGENES PARA LAS APPS******/
+
+.menu_icon2 div{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+.img_menu{
+    width: 3rem;
+    height: 3rem;
+    
+}
+.img_menu:hover{
+    background-color: #10e3ff64;
+
+    border-radius: 100%;
+    transition: 0.5s;
+    box-shadow: 0 0 5px #ffb310;
+}
+
+
+/******/
+
+.iconosOpciones{
+    margin-top: 5rem;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    background-color: rgba(0, 0, 0, 0.458);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+.img{
+    width: 2rem;
+    height: 2rem;
+}
